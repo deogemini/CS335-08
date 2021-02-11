@@ -1,131 +1,53 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        #mySidenav a {
-            position: absolute;
-            left: -16px;
-            transition: 0.3s;
-            padding: 15px;
-            width: 100px;
-            text-decoration: none;
-            font-size: 20px;
-            margin-top: 100px;
-            color: white;
-            border-radius: 16px;
-        }
-
-            #mySidenav a:hover {
-                left: 0;
-            }
-
-        #about {
-            top: 20px;
-            background-color: #2F4F4F; /*Hover sidenav buttons*/
-        }
-
-        #blog {
-            top: 80px;
-            background-color: #2F4F4F;
-        }
-
-        #projects {
-            top: 140px;
-            background-color: #2F4F4F;
-        }
-
-        #contact {
-            top: 200px;
-            background-color: #2F4F4F
-        }
-    </style>
-
-    <title>Payment Instructions</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <style type="text/css">
-        jumbotron {
-            height: 500px;
-            width: 20%;
-        }
-
-        div {
-            display: inline-block;
-            float: left;
-            color: #24f4f4;
-            font-size: 17px;
-        }
-
-        .col-sm-1 {
-            width: 270px;
-            height: 300px;
-        }
-
-        .col-sm-2 {
-            width: 270px;
-            height: 500px;
-        }
-
-        .col-sm-3 {
-            width: 270px;
-            height: 500px;
-        }
-
-        .col-sm-4 {
-            width: 270px;
-            height: 500px;
-        }
-
-        .col-sm-5 {
-            width: 270px;
-            height: 500%;
-        }
-    </style>
+<title>Payment instructions</title>
+<link rel="stylesheet" href="howtopay.css">
 </head>
-<div style="        
-    background-color: #2F4F4F;
-        color: white;
-        padding: 30px;
-        font-family: Arial;
-        border-radius: 16px;
-        border: 1px solid #ddd;
-        color: white;
-        font-weight: bold;
-        margin-left: -20px;
-        width: 100%;
-        font-size: 30px;"> <marquee>ONLINE BUS TICKETING SYSTEM </marquee></div>
-<body>
-    <div id="mySidenav" class="sidenav">
-        <a href="OBTMS.html" id="about">Home</a>
-        <a href="SignIn.html" id="blog">Sign In</a>
-        <a href="PrintTicket.html" id="projects">Print Ticket</a>        
-        <a href="ContactUs.html" id="contact">Contact Us</a>
-    </div>
-    
 
-    <div class="container">
-        <div class="jumbotron">
+<body>
+<div class="title">
+<div class="logo"><img src="obtms-logo.png"></div>
+<div class="heading"><h1 >Online Bus Ticketing System</h1></div>
+ </div>
+    <div class="btn-group">
+	<br>
+        <a href="signin.html"class="button"> Home </a>
+        <a href="signin.php" class="button">Add bus </a>
+        <a href="#" class="button"> Print ticket</a>
+        <a href="#ContactUs.php" class="button">Contact us</a>
+        <a href="HowToPay.php" class="button">How to pay </a>
+		<br><br><br><br><br>
+    </div>
+	
+<div class="container">
+  <div class="overlay">Explore the World, Enjoy the World</div>
+</div>
+
+  <div id="main"></div>
+  
+    <div class="container1">
+        
             <div style="
-    background-color:#2F4F4F;
-    color:white;
-    margin-bottom:50px;
-    text-align: center; 
-    width: 90%; 
-    margin-left: 120px;
-    border-radius: 16px;">
+					background-color:#2a5a68;
+					color:white;
+					margin-bottom:15px;
+					margin-top:15px;
+					text-align: center; 
+					width: 30%; 
+					margin-left: 35%;
+					border-radius: 16px; display: inline-block;float: left;color: #24f4f4;font-size: 17px;">
                 
                 <h3>HOW TO COMPLETE PAYMENTS</h3>
 
             </div>
-            <div style="background-color:#2F4F4F;font-size: 20px;color:white;padding:10px; margin-top: -45px; margin-left: 120px; border-radius: 16px;" class="row">
-                <div class="col-sm-1">
-                    <h3> M-PESA</h3>
-                    <div style="height= " 100px"; width="90px";<p> <img style="border-radius: 16px; height= " 90px"; width="90px" ; src="images.jpeg"></p>
-          </div>
-                    <div style="padding-top: 33px;">
+
+            <div style="background-color:#2a5a68;color:white;padding:20px; margin-left: 105px; margin-right:-15px" class="row">
+                <div class="col-sm-1" style="display: inline-block;float: left;color: #24f4f4;font-size: 17px;" >
+                    <h3 style="text-align:center"> M-PESA</h3>                    
+					<p style="text-align:center"> <img src="images.jpeg" style="border-radius: 10px; height: 50px; width:80px"></p>
+                    <div style="padding-top: 3.5px">
                         <p> Enter *150*00# </p>
                         <p> Select 4 - "Government Payments </p>
                         <p> Select 9 - "Bus Fare" </p>
@@ -135,12 +57,10 @@
                     </div>
 
                 </div>
-                <div class="col-sm-2">
-                    <h3>TIGO PESA</h3>
-                    <div style="height= " 100px"; width="90px" ; <p> <img style="border-radius: 16px; height= " 90px"; width="90px" ; src="tigopesa.jpeg"></p>
-          </div>
-                    <div style="padding-top: 67.5px;">
-                        <p> </p>
+                <div class="col-sm-2" style="display: inline-block;float: left;color: #24f4f4;font-size: 17px;">
+                    <h3 style="text-align:center">TIGO PESA</h3> 
+					<p style="text-align:center"> <img src= "tigopesa.jpeg" style="border-radius: 10px; height: 50px; width:80px"></p>          
+                    <div style="padding-top: 1.5px">
                         <p> </p>
                         <p> Enter *150*01# </p>
                         <p> Select 4 - "Government Payments </p>
@@ -151,15 +71,15 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3">
-                    <h3>HALOPESA</h3>
-                    <div style="height= " 100px"; width="90px" ; <p> <img style="border-radius: 16px; height= " 90px"; width="90px" ; src="HALO.png"></p>
-          </div>
+                <div class="col-sm-3" style="display: inline-block;float: left;color: #24f4f4;font-size: 17px;">
+                    <h3 style="text-align:center">HALOPESA</h3>
+                    <p style="text-align:center"> <img src="halotel-logo.png" style="border-radius: 10px; height: 40px; width:100px "></p>
                     <style>
                         a {
                             text-decoration: none;
+							}
                     </style>
-                    <div style="padding-top: 16px;">
+                    <div style="padding-top: 9.5px">
                         <p> Enter *150*01# </p>
                         <p> Select 4 - "Government Payments </p>
                         <p> Select 9 - "Bus Fare" </p>
@@ -177,11 +97,10 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4">
-                    <h3>T-PESA</h3>
-                    <div style="height= " 100px"; width="90px" ; <p> <img style="border-radius: 16px; height= " 90px"; width="90px" ; src="tpesa.jpeg"></p>
-          </div>
-                    <div>
+                <div class="col-sm-4" style="display: inline-block;float: left;color: #24f4f4;font-size: 17px;">
+                    <h3 style="text-align:center">T-PESA</h3>                    
+					<p style="text-align:center"> <img src="tpesa.jpeg" style="border-radius: 10px; height:50px; width:80px "> </p>         
+                    <div style="padding-top: 4.8px">
                         <p> Enter *150*01# </p>
                         <p> Select 4 - "Government Payments </p>
                         <p> Select 9 - "Bus Fare" </p>
@@ -191,11 +110,10 @@
                     </div>
                 </div>
 
-                <div class="col-sm-5">
-                    <h3>AIRTEL MONEY</h3>
-                    <div style="height= " 100px"; width="90px" ; <p> <img style="border-radius: 16px; height= " 90px"; width="90px" ; src="airtel-money.png"></p>
-          </div>
-                    <div style="padding-top: 50px;">
+                <div class="col-sm-5" style="display: inline-block;float: left;color: #24f4f4;font-size: 17px;">
+                    <h3 style="text-align:center">AIRTEL MONEY</h3>                  
+					<p style="text-align:center"> <img src="airtel-money.png" style="border-radius: 10px; height:50px; width:100px "> </p>        
+                    <div style="padding-top: 4.8px">
                         <p> Enter *150*00# </p>
                         <p> Select 4 - "Government Payments </p>
                         <p> Select 9 - "Bus Fare" </p>
@@ -204,16 +122,12 @@
                         <p> Enter 1 to complete payment </p>
                     </div>
                 </div>
-
-
-
-
-            </div>
-        </div>
+           </div>
+        
     </div>
 
 
+
+
 </body>
-
-
-</html>
+</html> 

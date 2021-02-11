@@ -1,0 +1,139 @@
+/*start of fixed piece*/
+.logo{
+	width:20%;
+	margin-left:38px;
+}
+.title {
+	background-color:#2a5a68;
+	margin-top:-10px;
+	width:101.3%;
+	margin-left:-0.7%;
+}
+
+.heading {
+	margin-top:-30px;
+	margin-left:50px;
+	color:white;
+	letter-spacing:2px;
+}
+
+.button {
+	background-color: #2a5a68; /* Green */
+	border: 2px solid white;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	width: 140px;
+	display: block;
+	border-radius: 16px;
+	margin-top:10px;
+	margin-left:10%;
+}
+/*button container*/
+.btn-group {
+	background-image: url("ndege2.jpg");
+	margin-left:-0.6%;
+	margin-top:-1.4%;
+	width:18%;
+	border-radius:5px;
+		
+}
+
+.btn-group .button:hover {
+  background-color: #707374;
+}
+
+
+body {
+    background-image: url("paper.jpg");
+    background-repeat: repeat;
+}
+
+.container {
+  position: relative;
+  width:18%;
+  height:100px;
+  padding-top: 10px;
+  margin-left:-0.6%;
+  margin-top:0%;
+  border-radius:8px;
+  background-color:#2a5a68;
+  padding-bottom:12%;
+  
+  
+  
+  }
+  
+  .overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 83%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+    
+}
+
+.container:hover .overlay {
+  opacity: 2;
+}
+
+/*end of fixed piece............fixed part end dont modify any of the codes above*/
+
+
+
+
+.col-sm-1 {
+  width: 240px;
+  height: 450px;
+}
+
+.col-sm-2 {
+  width: 240px;
+  height: 450px;
+}
+
+.col-sm-3 {
+  width: 240px;
+  height: 450px;
+}
+
+.col-sm-4 {
+  width: 240px;
+  height: 450px;
+}
+
+.col-sm-5 {
+  width: 240px;
+  height: 450%;
+}
+
+.row {
+  float:left;
+ 
+}
+
+.container1 {
+  margin-left:10.8%;
+  margin-top:-20%;
+}
+
+.row {
+	float:left;
+   
+  }
+  
+  .container1 {
+	margin-left:11.3%;
+	margin-top:-39%;
+	
+  }
