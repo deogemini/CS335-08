@@ -1,193 +1,70 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        #mySidenav a {
-            padding-top: 50px;
-            padding-bottom: 50px;
-            position: absolute;
-            left: -80px;
-            transition: 0.3s;
-            padding: 15px;
-            width: 150px;
-            text-decoration: none;
-            font-size: 20px;
-            color: white;
-            border-radius: 0 5px 5px 0;
-        }
-
-            #mySidenav a:hover {
-                left: 0;
-            }
-
-        #about {
-            top: 20px;
-            background-color: #2F4F4F; /*Hover sidenav buttons*/
-        }
-
-        #blog {
-            top: 80px;
-            background-color: #2F4F4F;
-        }
-
-        #projects {
-            top: 140px;
-            background-color: #2F4F4F;
-        }
-
-        #contact {
-            top: 200px;
-            background-color: #2F4F4F
-        }
-        </style>
-    <style>
-        * {
-            box-sizing: border-box;
-            border-radius: 16px;
-        }
-
-        /* Create two equal columns that floats next to each other */
-        .column {
-            float: left;
-            width: 50%;
-            padding: 10px;
-            color: #2F4F4F;
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        /* Style the buttons */
-        .btn {
-            border: none;
-            outline: none;
-            padding: 12px 16px;
-            background-color: #f1f1f1;
-            cursor: pointer;
-        }
-
-            .btn:hover {
-                background-color: #ddd;
-            }
-
-            .btn.active {
-                background-color: #666;
-                color: white;
-            }
-    </style>
+<title>Home</title>
+<link rel="stylesheet" href="contactusstyle.css">
 </head>
 
-<div style="
-    background-color: #2F4F4F;
-        color: white;
-        padding: 30px;
-        font-family: Arial;
-        border-radius: 16px;
-        border: 1px solid #ddd;
-        color: white;
-        font-weight: bold;
-        height: 150px;
-        margin-left: 95px;
-        width: 91%;
-        font-size: 30px;
-        text-align:center;">
-    <h1> <marquee>ONLINE BUS TICKETING SYSTEM </marquee> </h1>
-             
-    </div>
-
 <body>
-    <div style="background-color:#2F4F4F;color:white;padding:20px; margin-left: 45px; " class="row">
+<div class="title">
+<div class="logo"><img src="obtms-logo.png"></div>
+<div class="heading"><h1 >Online Bus Ticketing System</h1></div>
+ </div>
+    <div class="btn-group">
+	<br>
+        <a href="signin.html"class="button"> Home </a>
+        <a href="signin.php" class="button"> Sign in </a>
+        <a href="#" class="button"> Print ticket</a>
+        <a href="#ContactUs.php" class="button">Contact us</a>
+        <a href="HowToPay.php" class="button">How to pay </a>
+    <br><br><br><br>
+    </div>
+	
+<div class="container">
+  <div class="overlay">Explore the World, Enjoy the World</div>
+</div>
 
-        <div id="mySidenav" class="sidenav">
-            <a href="OBTMS.html" id="about">Home</a>
-            <a href="SignIn.html" id="blog">Sign In</a>
-            <a href="PrintTicket.html" id="projects">Print Ticket</a>
-            <a href="HowToPay.html" id="contact">How To Pay</a>
-        </div>
-        <h1 style="text-align:center;"> for more information/help contact us </h1>
-        <p>Click on a button to choose<br> list view or grid view.</p>
+<div id="main"></div>
+<div class="container1" >  
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+        <h2>DODOMA</h2>
+        <p>position: Stand Manager</p>
+        <p>email:OBTMSdodoma@gmail.com</p>
+        <p>adress: Nanenane-Dodoma</p>
+        <p>phone no: +255713532744</p>
+        <p>p.o. box: P.O. BOX. 10000 Dodoma-TZ</p>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+        <h2>DAR-ES-SALAAM</h2>
+        <p>position: Stand Manager</p>
+        <p>email: OBTMSdar@gmail.com</p>
+        <p>adress: Mbezi-Dar es Salaam</p>
+        <p>phone no: +255620274372</p>
+        <p>p.o. box: P.O. BOX. 10000 DarEsSalaam-TZ </p>
+    </div>
+  </div>
 
-        <div id="btnContainer">
-            <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
-            <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="column" style="background-color:#aaa;">
-                <h2>DODOMA</h2>
-                <p>position: Stand Manager</p>
-                <p>email:OBTMSdodoma@gmail.com</p>
-                <p>adress: Nanenane-Dodoma</p>
-                <p>phone no: +255713532744</p>
-                <p>p.o. box: P.O. BOX. 10000 Dodoma-TZ</p>
-            </div>
-            <div class="column" style="background-color:#bbb;">
-                <h2>DAR-ES-SALAAM</h2>
-                <p>position: Stand Manager</p>
-                <p>email: OBTMSdar@gmail.com</p>
-                <p>adress: Mbezi-Dar es Salaam</p>
-                <p>phone no: +255620274372</p>
-                <p>p.o. box: P.O. BOX. 10000 DarEsSalaam-TZ </p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column" style="background-color:#ccc;">
-                <h2>MWANZA</h2>
-                <p>position: Stand Manager</p>
-                <p>email: OBTMSmwanza@gmail.com</p>
-                <p>adress: Nyegezi-Mwanza</p>
-                <p>phone no: +255783889987</p>
-                <p>p.o. box: P.O. BOX. 10000 Mwanza-TZ</p>
-            </div>
-            <div class="column" style="background-color:#ddd;">
-                <h2>MOROGORO</h2>
-                <p>position: Stand Manager</p>
-                <p>email: OBTMSmorogoro@gmail.com</p>
-                <p>adress: Msamvu-Morogoro</p>
-                <p>phone no: +25568674881</p>
-                <p>p.o. box: P.O. BOX. 10000 Morogoro-TZ</p>
-            </div>
-        </div>
-
-        <script>
-            // Get the elements with class="column"
-            var elements = document.getElementsByClassName("column");
-
-            // Declare a loop variable
-            var i;
-
-            // List View
-            function listView() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.width = "100%";
-                }
-            }
-
-            // Grid View
-            function gridView() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.width = "50%";
-                }
-            }
-
-            /* Optional: Add active class to the current button (highlight it) */
-            var container = document.getElementById("btnContainer");
-            var btns = container.getElementsByClassName("btn");
-            for (var i = 0; i < btns.length; i++) {
-                btns[i].addEventListener("click", function () {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                });
-            }
-        </script>
+  <div class="row1">
+    <div class="column1" style="background-color:#ccc;">
+        <h2>MWANZA</h2>
+        <p>position: Stand Manager</p>
+        <p>email: OBTMSmwanza@gmail.com</p>
+        <p>adress: Nyegezi-Mwanza</p>
+        <p>phone no: +255783889987</p>
+        <p>p.o. box: P.O. BOX. 10000 Mwanza-TZ</p>
+    </div>
+    <div class="column1" style="background-color:#ddd;">
+        <h2>MOROGORO</h2>
+        <p>position: Stand Manager</p>
+        <p>email: OBTMSmorogoro@gmail.com</p>
+        <p>adress: Msamvu-Morogoro</p>
+        <p>phone no: +25568674881</p>
+        <p>p.o. box: P.O. BOX. 10000 Morogoro-TZ</p>
+    </div>
+  </div>
+</div>
 
 </body>
-</html>
+</html> 
