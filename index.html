@@ -77,3 +77,51 @@
           </div>
         </form>
     </div>
+
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-3">
+      <h4 style="align-items: center;">Bus details</h4>
+      <form action="route.php" class="form-group">
+        <div class="form-outline">
+          <label for="busno" class="form-label">Bus No.</label>
+          <input type="text" class="form-control" required>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <div class="form-outline">
+              <label for="busclass" class="form-label">Bus Class</label>
+              <input type="text" class="form-control" required name="bus_class">
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <div class="form-outline">
+              <label for="">Seat no</label>
+              <input type="number" class="form-control" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-outline">
+          <label for="To" class="form-label">Departure time:</label>
+        <br>
+          <input type="time" id="appt"name="appt" required>
+        </div>
+        <div class="form-outline">
+          <label for="From" class="form-label">Other details:</label>
+          <input type="text" class="form-control" required>
+          <br>
+          <br>
+          <br>
+
+
+          <form action="/action_page.php">
+            <input type="submit" value="save details">
+          </form>
+        </div>
+    </div>
+  </div>
+</body>
