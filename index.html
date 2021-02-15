@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+
+<body>
+    <div class="navbarSupportedContent" id="name">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkslategrey;">
+        <marquee>
+          <a class="navbar-brand" href="#">
+            <h1>Online Bus Ticketing System</h1>
+          </a>
+        </marquee>
+  
+      </nav>
+    </div>
+
+    <style>
+
+        .button {
+          background-color: #2a5a68;
+          border: 2px solid white;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 16px;
+          cursor: pointer;
+          width: 140px;
+          display: block;
+          border-radius: 16px;
+         float:none;
+               }
+    </style>
+ 
+ <div class="row">
+    <div class="col-md-3" id="sidenav">
+      <div class="sidebar-wrapper" >
+        <a href="#"class="button"> Admin Panel </a>
+        <a href="#" class="button">Sign in </a>
+        <a href="#" class="button"> Print ticket</a>
+        <a href="#" class="button">Contact us</a>
+        <a href="#" class="button">How to pay </a>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+        <br>
+        <h4 style="align-items: center;">Route details</h4>
+        <form action="route.php" class="form-group">
+          <div class="form-outline">
+            <label for="Date" class="form-label">Date:</label>
+            <input type="date" class="form-control" required>
+          </div>
+          <div class="form-outline">
+            <label for="To" class="form-label">To:</label>
+            <input type="text" class="form-control" required>
+          </div>
+          <div class="form-outline">
+            <label for="From" class="form-label">From:</label>
+            <input type="text" class="form-control" required>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="form-group"><br>
+            <label for="file">Upload bus photo</label>
+            <input type="file" name="file" required class="form-control">
+          </div>
+        </form>
+    </div>
+
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-3">
+      <h4 style="align-items: center;">Bus details</h4>
+      <form action="route.php" class="form-group">
+        <div class="form-outline">
+          <label for="busno" class="form-label">Bus No.</label>
+          <input type="text" class="form-control" required>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <div class="form-outline">
+              <label for="busclass" class="form-label">Bus Class</label>
+              <input type="text" class="form-control" required name="bus_class">
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <div class="form-outline">
+              <label for="">Seat no</label>
+              <input type="number" class="form-control" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-outline">
+          <label for="To" class="form-label">Departure time:</label>
+        <br>
+          <input type="time" id="appt"name="appt" required>
+        </div>
+        <div class="form-outline">
+          <label for="From" class="form-label">Other details:</label>
+          <input type="text" class="form-control" required>
+          <br>
+          <br>
+          <br>
+
+
+          <form action="/action_page.php">
+            <input type="submit" value="save details">
+          </form>
+        </div>
+    </div>
+  </div>
+
+  <script src="js\bootstrap.min.js"></script>
+</body>
+
+</html>
