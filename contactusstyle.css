@@ -1,3 +1,4 @@
+
 /*start of fixed piece*/
 .logo{
 	width:20%;
@@ -55,7 +56,7 @@ body {
 .container {
   position: relative;
   width:18%;
-  height:150px;
+  height:100px;
   padding-top: 10px;
   margin-left:-0.6%;
   margin-top:0%;
@@ -91,86 +92,38 @@ body {
 
 
 
-/*search detail css*/
-.form-inline {  
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  padding-left: 300px;
-  box-sizing: border-box;
-  margin-top:-38%;
-  margin-left:5%;
+
+
+/*form css starts here downward............*/
+
+
+/*root css details side starts...................*/
+/* Create two equal columns that floats next to each other */
+.column {
+	margin-left: 250px;
+	width: 30%;
+	padding: 10px;
+	color: #2F4F4F;
+	border-radius: 4%;
 }
 
-.form-inline label {
-  margin: 5px 10px 5px 0;
-  color:white;
-  }
-
-.form-inline input {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius:6px;
-}
-
-    .form-inline button {
-        padding: 10px 20px;
-        background-color: #2a5a68;
-        border: 1px solid #ddd;
-        color: white;
-        cursor: pointer;
-		border-radius:10px;
-    }
-
-    .form-inline button:hover {
-        background-color: #707374;
-    }
-
-@media (max-width: 800px) {
-  .form-inline input {
-    margin: 10px 0;
-  }
-  
-  .form-inline {
-    flex-direction: column;
-    align-items: stretch;
-  }
+/* Clear floats after the columns */
+.row1 {
+margin-left: 400px;
+margin-top: -527px;	
 
 }
 
-#main{
-    
-    height: 560px;
-    width: 75%;
-    margin-top: 10px;
-    float: left;
-    margin-top: -42%;
-    margin-left: 20%;
-    
-    background-position: center;
-    background-size: cover;
-    animation: slide 20s infinite;
-
-
+.column1 {
+	margin-left: 250px;
+	width: 45%;
+	padding: 10px;
+	color: #2F4F4F;
+	border-radius: 4%;
 }
-@keyframes slide {
-    0%{
-        background-image: url(image/0.jpg);
-    }
-    25%{
-        background-image: url(image/2.jpg);
-    }
-    50%{
-        background-image: url(image/3.jpg);
-    }
-    75%{
-        background-image: url(image/4.jpg);
-    }
-    100%{
-        background-image: url(image/1.jpg);
-    }
-    
+.container1 {
+	margin-top: -540px;
+	display: grid;
+	
 }
+/*form css ends here downward............*/
