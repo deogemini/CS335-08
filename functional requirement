@@ -1,0 +1,19 @@
+1. The system should be able to display whether there is any available buses.
+2. The system should be able to allow the customer to choose any route he/she wants to take.
+3. The system should be able to allow the customer to select any date that he/she wants to travel.
+4. The system should list available buses on particular date and time.
+5. The system should be able to show the available seats that are yet to be booked.
+6. The system should allow the customer to select the seat he/she want.
+7. The system should allow the system administrator to add new routes or new buses. 
+8. The system should be able to integrate with mobile (m-pesa, tigo pesa, halopesa,t-pesa etc) and/or bank payment systems. 
+9. The system should allocate bus fare prices based on the standard prices provided by the ministry concerned.
+10. The system should provide overall reports to the company manager.
+11. The system should allow the customer to pay for more than one route.
+12. The system should allow registration and login for several users (not the customer).
+13. The system should be able to show the available unreserved seats.
+14. The system should be able to show the confirmatory section for the payment.
+15. The system should provide SMS and E-mail notification to verify the reservation.
+16. System should be able to keep records with customer details.
+17. System should be able to fetch details of the customer based on the number of times he/she has booked and produce a pop-up message with final amount that has to be paid after the discount.
+18. The system should put the time limit for customer to complete the payment after completing the booking process (specifically 1hr). 
+19. The system should allow the customer to cancel the trip three days before the date of the journey.
