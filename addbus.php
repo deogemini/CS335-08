@@ -13,7 +13,7 @@
  </div>
     <div class="btn-group">
 	<br>
-        <a href="signin.html"class="button"> Home </a>
+        <a href="signin.php"class="button"> Home </a>
         <a href="signin.php" class="button">Add bus </a>
         <a href="#" class="button"> Print ticket</a>
         <a href="#ContactUs.php" class="button">Contact us</a>
