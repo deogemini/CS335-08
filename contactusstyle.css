@@ -100,7 +100,7 @@ body {
 /*root css details side starts...................*/
 /* Create two equal columns that floats next to each other */
 .column {
-	margin-left: 250px;
+	margin-left: 320px;
 	width: 30%;
 	padding: 10px;
 	color: #2F4F4F;
@@ -109,13 +109,13 @@ body {
 
 /* Clear floats after the columns */
 .row1 {
-margin-left: 400px;
-margin-top: -527px;	
+margin-left: 460px;
+margin-top: -515px;	
 
 }
 
 .column1 {
-	margin-left: 250px;
+	margin-left: 350px;
 	width: 45%;
 	padding: 10px;
 	color: #2F4F4F;
