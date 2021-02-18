@@ -37,7 +37,7 @@
 .btn-group {
 	background-image: url("images/ndege2.jpg");
 	margin-left:-0.6%;
-	margin-top:-1.4%;
+	margin-top:-1.66%;
 	width:18%;
 	border-radius:5px;
 		
@@ -62,7 +62,7 @@ body {
   margin-top:0%;
   border-radius:8px;
   background-color:#2a5a68;
-  padding-bottom:12%;
+  padding-bottom:10%;
   
   
   
@@ -100,7 +100,7 @@ body {
 /*root css details side starts...................*/
 .form-inline {  
 
-  margin-top:-35%;
+  margin-top:-30%;
   margin-left:25%;
   background-color:#2a5a68;
   width:25%;
@@ -138,7 +138,7 @@ body {
 	background-color:#2a5a68;
 	margin-left:60%;
 	width:25%;
-	margin-top:-21%;
+	margin-top:-23%;
 	
 }
 .bus-heading{
@@ -174,7 +174,14 @@ body {
 	color: white;
 	cursor: pointer;
 	border-radius:10px;
+	
 }
+.upload-title {
+	margin-left:26%;
+	margin-top:-2.5%;
+	
+}
+
 
 .submit-button {
 	background-color:#2a5a68;
@@ -197,6 +204,6 @@ body {
 
 
 .whole-form {
-	margin-top:-30%;
+	margin-top:-40%;
 }
 /*form css ends here downward............*/
