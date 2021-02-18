@@ -9,12 +9,12 @@
 
 <body>
 <div class="title">
-<div class="logo"><img src="obtms-logo.png"></div>
+<div class="logo"><img src="images/obtms-logo.png"></div>
 <div class="heading"><h1 >Online Bus Ticketing System</h1></div>
  </div>
     <div class="btn-group">
 	<br>
-        <a href="signin.html"class="button"> Home </a>
+        <a href="home.php"class="button"> Home </a>
         <a href="signin.php" class="button"> Sign in </a>
         <a href="#" class="button"> Print ticket</a>
         <a href="#ContactUs.php" class="button">Contact us</a>
