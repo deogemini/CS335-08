@@ -2,8 +2,8 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-<title>Sign In</title>
-<link rel="stylesheet" href="signinstyle.css">
+<title>Display Control Number</title>
+<link rel="stylesheet" href="controlno.css">
 </head>
 
 <body>
