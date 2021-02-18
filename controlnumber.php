@@ -34,7 +34,7 @@
 
 <div class="instructions1">
    <p> For more of information on how to pay click the link below</p>
-   <p> <a href="HowToPay.php" class="button">How to pay </a>
+   <p> <a href="howToPay.php" class="button">How to pay </a>
    </div>
 
 
