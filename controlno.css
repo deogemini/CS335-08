@@ -150,6 +150,9 @@ body {
 }
 
 .display_payment {
-	margin-left:50%;
-	margin-top:-50px;
+	margin-left:25%;
+	margin-top:-500px;
+	color: black;
+	font-size: 50px;
+	text-align: center;
 }

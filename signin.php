@@ -2,7 +2,7 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-<title>Display Control Number</title>
+<title>Sign In</title>
 <link rel="stylesheet" href="controlno.css">
 </head>
 
