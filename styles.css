@@ -37,9 +37,7 @@
 .btn-group {
 	background-image: url("images/ndege2.jpg");
 	margin-left:-0.6%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin-top:-1.66%;
+	margin-top:-1.4%;
 =======
 	margin-top:-1.4%;
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
@@ -48,7 +46,7 @@
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
 	width:18%;
 	border-radius:5px;
-		
+
 }
 
 .btn-group .button:hover {
@@ -70,26 +68,24 @@ body {
   margin-top:0%;
   border-radius:8px;
   background-color:#2a5a68;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  padding-bottom:10%;
+  padding-bottom:12%;
 =======
   padding-bottom:12%;
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
 =======
   padding-bottom:12%;
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
-  
-  
-  
+
+
+
   }
-  
+
   .overlay {
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
+  color: #f1f1f1;
   width: 83%;
   transition: .5s ease;
   opacity:0;
@@ -97,7 +93,7 @@ body {
   font-size: 20px;
   padding: 20px;
   text-align: center;
-    
+
 }
 
 .container:hover .overlay {
@@ -114,11 +110,9 @@ body {
 
 
 /*root css details side starts...................*/
-.form-inline {  
+.form-inline {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  margin-top:-30%;
+  margin-top:-35%;
 =======
   margin-top:-35%;
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
@@ -128,7 +122,7 @@ body {
   margin-left:25%;
   background-color:#2a5a68;
   width:25%;
-  
+
 }
 
 .form-inline label {
@@ -144,14 +138,14 @@ body {
 }
 
 .form-inline input {
-  
+
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius:6px;
   margin-left:10%;
   margin-bottom:2%;
-  
+
 }
 /*root css details side ends..........*/
 
@@ -162,16 +156,14 @@ body {
 	background-color:#2a5a68;
 	margin-left:60%;
 	width:25%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin-top:-23%;
+	margin-top:-21%;
 =======
 	margin-top:-21%;
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
 =======
 	margin-top:-21%;
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
-	
+
 }
 .bus-heading{
 	background-color:white;
@@ -180,7 +172,7 @@ body {
 }
 
 .bus-details-form input {
-  
+
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -195,8 +187,8 @@ body {
  color:white;
   }
   /*bus side ends here................*/
-  
-  
+
+
 .file-button {
 	background-color:#2a5a68;
 	margin-left:26%;
@@ -206,16 +198,7 @@ body {
 	color: white;
 	cursor: pointer;
 	border-radius:10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	
 }
-.upload-title {
-	margin-left:26%;
-	margin-top:-2.5%;
-	
-}
-
 =======
 }
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
@@ -244,9 +227,7 @@ body {
 
 
 .whole-form {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin-top:-40%;
+	margin-top:-30%;
 =======
 	margin-top:-30%;
 >>>>>>> 9c70c5651c8357af9943b02500613d63ad1c0c16
