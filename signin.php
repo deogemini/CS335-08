@@ -1,23 +1,24 @@
+<?php include('functions.php') ?>
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-<title>Sign In</title>
-<link rel="stylesheet" href="controlno.css">
+<title>Home</title>
+<link rel="stylesheet" href="signinstyle.css">
 </head>
 
 <body>
 <div class="title">
-<div class="logo"><img src="obtms-logo.png"></div>
+<div class="logo"><img src="images/obtms-logo.png"></div>
 <div class="heading"><h1 >Online Bus Ticketing System</h1></div>
  </div>
     <div class="btn-group">
 	<br>
         <a href="home.php"class="button"> Home </a>
-        <a href="signin.php" class="button">Sign in </a>
+        <a href="#signin.php" class="button">Sign in </a>
         <a href="#" class="button"> Print ticket</a>
-        <a href="contactUs.php" class="button">Contact us</a>
-        <a href="howToPay.php" class="button">How to pay </a>
+        <a href="#ContactUs.php" class="button">Contact us</a>
+        <a href="HowToPay.php" class="button">How to pay </a>
 		<br><br><br><br>
     </div>
 	
@@ -27,13 +28,14 @@
 
   <div id="main"></div>
   
- <form  class="form-inline" action="addbus.html" method="POST" enctype="multipart/from-data" >
+ <form  class="form-inline" action="signin.php" method="POST" enctype="multipart/from-data" >          
   <h1 class="root-heading">Sign in details</h1><br>
+         <h4 style="text-align: center; color:red"><?php echo display_error(); ?></h4>
   <label for="date">Username:</label><br>
   <input type="text" id="date" placeholder="username" name="user-name"><br><br>
   <label for="from">Password:</label><br>
   <input type="password" id="from" placeholder="password" name="Password"><br>
-  <button class="submit-button" type="submit">Submit details</button> 
+  <button class="submit-button" type="submit" name="login_btn">Submit details</button> 
  </form>
 
    <div class="remember-me">
