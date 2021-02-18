@@ -1,38 +1,166 @@
+<?php
+    $db = mysqli_connect("localhost", "root", "", "online_bus_booking");
+    if(!$db){
+        echo "error ".mysqli_connect_error();
+    }
+    if(isset($_POST["elly"])){
+    $seat = $_POST["Seat"];
+    $name = $_POST["Name"];
+    $from = $_POST["From"];
+    $to = $_POST["To"];
+    $date = $_POST["Date"];
+    $number = $_POST["Contact"];
+	
+	//<input type="hidden" name="id" value="<?php echo $id; 
+
+    $query ="INSERT INTO customers(seat, name, travelFrom, travelTo, travelDate, contacts) values('$seat', '$name', '$from', '$to', '$date', '$number')";
+    $result = mysqli_query($db, $query);
+    if(!$result){
+        echo "error ".mysqli_error($db);
+
+    }
+    }
+?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Book seat</title>
-        <link rel="stylesheet" href="bookstyle.css">
+        <title>Booking page</title>
+		<link rel="stylesheet" href="homestyle.css">
+        <style>
+		
+        body{
+            background-image: url('images/paper.jpg');
+			 background-repeat: repeat;
+        }
+
+        .seatPlan{
+            width:325px;
+            margin:auto;
+            height:auto;
+            background:white;
+            padding:15px;
+			margin-left:65%;
+			margin-top:-35%;
+			border-radius:18px;
+        }
+
+        input[type=button]{
+            background:skyblue;
+            width:70px;
+            padding:1px;
+            font-size:22px;
+            font-weight:strong;
+            border-radius:5px;
+        }
+
+        input[type=text]{
+            width:320px;
+            padding:1px;
+            font-size:22px;
+            font-weight:strong;
+            margin-top:10px;
+            border-radius:5px;
+        }
+
+        
+        input[type=date]{
+            width:320px;
+            padding:1px;
+            font-size:22px;
+            font-weight:strong;
+            margin-top:20px;
+            border-radius:5px;
+        }
+            
+        input[type=number]{
+            width:320px;
+            padding:1px;
+            font-size:22px;
+            font-weight:strong;
+            margin-top:10px;
+            border-radius:5px;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            font-size:22px;
+            font-weight:strong;
+            margin-top:10px;
+            border-radius:5px;
+            background:#2a5a68;
+            color:white;
+        }
+
+        
+		
+		.information{
+			margin-left:25%;
+			background-color:#2E8B57;
+			padding:20px;
+			width:32%;
+			margin-top:-43%;
+			border-radius:18px;
+		}
+		
+		
+		
+		
+        </style>
     </head>
     <body>
-        <div class="title">
-            <div class="logo"><img src="images/obtms-logo.png"></div>
-            <div class="heading"><h1 >Online Bus Ticketing System</h1></div>
-    </div>
-
-    <div class="btn-group">
-    <br>
+				  <div class="title">
+		<div class="logo"><img src="images/obtms-logo.png"></div>
+		<div class="heading"><h1 >Online Bus Ticketing System</h1></div>
+		 </div>
+		 <div class="btn-group">
+	<br>
         <a href="home.php"class="button"> Home </a>
         <a href="signin.php" class="button">Sign in </a>
         <a href="#" class="button"> Print ticket</a>
-        <a href="contactUs.php" class="button">Contact us</a>
-        <a href="howToPay.php" class="button">How to pay </a>
-    <br><br><br><br>
-            </div>
-
-    <div class="information">
-        <form action="booking.php" method="POST" name="info">
-            <input type="button" value="Seat" style="width:100px;"><input type="text" name="Seat" id="text1"><br><br>
-            <input type="button" value="Name" style="width:100px;"><input type="text" name="Name" id="text2"><br><br>
-            <input type="button" value="Contact" style="width:100px;"><input type="text" name="From" id="text3"><br><br>
-            <input type="button" value="Email"style="width:100px; "><input type="text" name="To" id="text4"><br><br>
-            <button style="Submit" value="Book" onclick="book()">Save details and request control number</button>
-        </form>   
+        <a href="#ContactUs.php" class="button">Contact us</a>
+        <a href="HowToPay.php" class="button">How to pay </a>
+		<br><br><br><br>
+    </div>
+	
+<div class="container">
+  <div class="overlay">Explore the World, Enjoy the World</div>
+</div>
+		  
+        <div class="information">
+		<h2 align="center">Fill out the information</h2>
+         <form action="Book.php" method="POST" name="info">
+             <input type="button" value="Seat" style="width:100px;"><input type="text" name="Seat" id="text1"><br><br>
+             <input type="button" value="Name" style="width:100px;"><input type="text" name="Name" id="text2"><br><br>
+             <select name="From" id ="region" style="width:100%; height: 30px; font-size: 24px; border-radius: 5px; margin-top:20px; font-weight:strong;">
+            <option value ="region">From:</option>
+            <option value ="dar es salaam">Dar es Salaam</option>
+            <option value ="mbeya">Mbeya</option>
+            <option value ="morogoro">Morogoro</option>
+            <option value ="iringa">Iringa</option>
+            <option value ="tanga">Tanga</option>
+            <option value ="kilimanjaro">Kilimanjaro</option>
+            <option value ="arusha">Arusha</option>
+        </select><br><br>
+        <select name="To" id ="region" style="width:100%; height: 30px; font-size: 24px; border-radius: 5px; margin-top:20px; font-weight:strong;">
+            <option value ="region">To:</option>
+            <option value ="dar es salaam">Dar es Salaam</option>
+            <option value ="mbeya">Mbeya</option>
+            <option value ="morogoro">Morogoro</option>
+            <option value ="iringa">Iringa</option>
+            <option value ="tanga">Tanga</option>
+            <option value ="kilimanjaro">Kilimanjaro</option>
+            <option value ="arusha">Arusha</option>
+        </select><br><br>
+             <input type="button" value="Date" style="width:100px;"><input type="date" name="Date" id="text5"><br><br>
+             <input type="button" value="Contact" style="width:100px;"><input type="number" name="Contact" id="text6"><br><br>
+             <button style="Submit" value="Book"  name="elly" >Book</button>
+         </form>   
         </div>
-        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
         <div class="seatPlan">
-    
+           
             <h2 align="center">Click to select your seat</h2>
             <form>
                 <input type="button" value="A1" id="A1" onclick="info.text1.value+='A1' ; document.getElementById('A1').style.backgroundColor='#F19481';">
@@ -68,11 +196,7 @@
                 
 
             </form>
-            <p align="center">After selecting, fill the details and proceed</p>
-        </div>
-
-        <div class="container">
-            <div class="overlay">Explore the World, Enjoy the World</div>
+            
         </div>
         <script src="book.js" alt="desktop"></script>
     </body>
