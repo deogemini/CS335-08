@@ -11,7 +11,7 @@
     $date = $_POST["Date"];
     $number = $_POST["Contact"];
 	
-	//<input type="hidden" name="id" value="<?php echo $id; 
+	
 
     $query ="INSERT INTO customers(seat, name, travelFrom, travelTo, travelDate, contacts) values('$seat', '$name', '$from', '$to', '$date', '$number')";
     $result = mysqli_query($db, $query);
@@ -116,9 +116,9 @@
 		 <div class="btn-group">
 	<br>
         <a href="home.php"class="button"> Home </a>
-        <a href="signin.php" class="button">Sign in </a>
+        <a href="#signin.php" class="button">Sign in </a>
         <a href="#" class="button"> Print ticket</a>
-        <a href="#ContactUs.php" class="button">Contact us</a>
+        <a href="ContactUs.php" class="button">Contact us</a>
         <a href="HowToPay.php" class="button">How to pay </a>
 		<br><br><br><br>
     </div>
