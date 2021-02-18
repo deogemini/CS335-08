@@ -18,7 +18,7 @@
         <a href="signin.php" class="button"> Sign in </a>
         <a href="#" class="button"> Print ticket</a>
         <a href="#ContactUs.php" class="button">Contact us</a>
-        <a href="HowToPay.php" class="button">How to pay </a>
+        <a href="howToPay.php" class="button">How to pay </a>
     <br><br><br><br>
     </div>
 	
