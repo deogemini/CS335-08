@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <title>Sign In</title>
-<link rel="stylesheet" href="signinstyle.css">
+<link rel="stylesheet" href="controlno.css">
 </head>
 
 <body>
@@ -13,10 +13,11 @@
  </div>
     <div class="btn-group">
 	<br>
-        <a href="#OBTMS.php"class="button"> Home </a>
+        <a href="home.php"class="button"> Home </a>
         <a href="signin.php" class="button">Sign in </a>
-        <a href="#ContactUs.php" class="button">Contact us</a>
-        <a href="HowToPay.php" class="button">How to pay </a>
+        <a href="#" class="button"> Print ticket</a>
+        <a href="contactUs.php" class="button">Contact us</a>
+        <a href="howToPay.php" class="button">How to pay </a>
 		<br><br><br><br>
     </div>
 	

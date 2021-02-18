@@ -1,0 +1,11 @@
+1. Allow the system to be controlled by the maximum of 10 people
+2. The system must be protected from all kind of viruses and attempts from unregistered members.
+3. The system should be available 24 hours 7 days a week (24/7)
+4. System administrator can edit the buses' information.
+5. Normal users(customers) can not access buses reports unless permission is given to that specific user.
+6. The system should be able to integrate with the existing systems.
+7. The interactions between the user and the system must not exceed 3 seconds.
+8. The system should be accessed responsively across the devices.
+9. The system should provide easy ticket reservation environment for user with self-directed
+10. The system should have user friendly interfaces to navigate through the system easily
+ 
