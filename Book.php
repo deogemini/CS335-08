@@ -15,6 +15,7 @@
 
     $query ="INSERT INTO customers(seat, name, travelFrom, travelTo, travelDate, contacts) values('$seat', '$name', '$from', '$to', '$date', '$number')";
     $result = mysqli_query($db, $query);
+	header('location: controlnumber.php');
     if(!$result){
         echo "error ".mysqli_error($db);
 
