@@ -89,45 +89,11 @@ body {
 
 /*end of fixed piece............fixed part end dont modify any of the codes above*/
 
-.form-inline {  
-
-  margin-top:-40%;
-  margin-left:40%;
-  background-color:#2a5a68;
-  width:25%;
-  border-radius:0px 0px 12px 12px;
-}
-
-.form-inline label {
- margin-left:20%;
- color:white;
- 
-  }
-
 .root-heading {
 	margin-left:0%;
 	background-color:white;
 	border-radius:0px 0px 8px 8px;
 	text-align:center;
-}
-
-.form-inline input {
-  
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius:6px;
-  margin-left:20%;
-  margin-bottom:2%;
-  
-  
-}
-
-.submit-button {
-	background-color:#2a5a68;
-	margin-top:30px;
-	margin-left:100px;
-	margin-bottom:30px;
 }
 
  button {
@@ -144,15 +110,15 @@ body {
 	background-color: #707374;
 }
 
-.remember-me {
-	margin-left:42%;
-	margin-top:20px;
+
+.paymentNO {
+	margin-left:20%;
+	margin-top: -550px;
+	color: black;
+	font-size: 30px;
+	text-align: left;
 }
 
-.display_payment {
-	margin-left:25%;
-	margin-top:-500px;
-	color: black;
-	font-size: 50px;
-	text-align: center;
+.instructions1 {
+	margin-left: 400px;
 }
