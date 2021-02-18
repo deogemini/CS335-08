@@ -32,9 +32,11 @@
   <label for="date">Date:</label>
   <input type="Date" id="date" placeholder="DD/MM/YYYY" name="date">
   <label for="from">From:</label>
+
   <input type="text" id="from" placeholder="Travelling from?" name="start-from">
   <label for="to">To:</label>
   <input type="text" id="to" placeholder="Where to?" name="destinates">
+
   <button type="submit" name="search">Search</button>
 </form>
 
