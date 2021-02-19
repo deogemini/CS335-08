@@ -14,6 +14,7 @@
 			$start = $n['startFrom'];
 			$terminate = $n['termination'];
 			$date = $n['date'];
+			$fare = $n['fare'];
 			}
 	?>
 
@@ -24,7 +25,7 @@
 	<link rel="stylesheet" type="text/css" href="editbusstyles.css">
 	<style>
 table {
-    width:80%;
+    width:90%;
 }
 table, th, td {
     border: 1px solid black;
@@ -72,6 +73,7 @@ th {
 			<th>From</th>
 			<th>To</th>
 			<th>Date</th>
+			<th>Fare</th>
 			
 			
 			<th colspan="2">Action</th>
@@ -88,6 +90,7 @@ th {
 			<td><?php echo $row['startFrom']; ?></td>
 			<td><?php echo $row['termination']; ?></td>
 			<td><?php echo $row['date']; ?></td>
+			<td><?php echo $row['fare']; ?></td>
 			<td>
 				<a href="editbus.php?edit=<?php echo $row['id']; ?>" class="edit_btn" >Edit</a>
 			</td>
@@ -133,6 +136,10 @@ th {
 		<div class="input-group">
 			<label>Date</label>
 			<input type="date" name="date" value="<?php echo $date ?>">
+		</div>
+		<div class="input-group">
+			<label>Fare</label>
+			<input type="text" name="fare" value="<?php echo $fare ?>">
 		</div>
 		<div class="input-group">
 			<?php if ($update == true): ?>
