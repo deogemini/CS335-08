@@ -13,12 +13,13 @@ $conn = mysqli_connect($server, $user, $passwd, $database);
 	  if (isset($_POST['submit'])) {
     // for the database
 	    $busid = $_POST['number'];
-	    $class = $_POST['category'];
+	    $class = $_POST['class'];
 	    $company = $_POST['company'];
 		$time = $_POST['departure-time'];		
 		$start = $_POST['start-from'];
-		$terminate = $_POST['terminates'];
-		$date = $_POST['date'];		
+		$terminate = $_POST['destinates'];
+		$date = $_POST['date'];
+		$fare = $_POST['fare'];		
  		$busImageName = time() . '-' . $_FILES["bus-photo"]["name"];
 		// For image upload
 		$target_dir = "images/";
@@ -38,8 +39,9 @@ $conn = mysqli_connect($server, $user, $passwd, $database);
     // Upload image only if no errors
     if (empty($error)) {
       if(move_uploaded_file($_FILES["bus-photo"]["tmp_name"], $target_file)) {
-        $sql = "INSERT INTO buses1 (busID,category,company,departureTime,busPhoto,startFrom,termination,date) VALUES ('$busid','$class','$company','$time','$busImageName','$start','$terminate','$date')";
-        if(mysqli_query($conn, $sql)){
+        $sql = "INSERT INTO buses1 (busID,category,company,departureTime,busPhoto,startFrom,termination,date,fare) VALUES ('$busid','$class','$company','$time','$busImageName','$start','$terminate','$date','$fare')";
+         $msgs="You successifully added informations";
+		if(mysqli_query($conn, $sql)){
           $msg = "Image uploaded and saved in the Database";
           $msg_class = "alert-success";
 		  //header('location: editbus.php');

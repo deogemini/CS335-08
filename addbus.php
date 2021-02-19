@@ -29,7 +29,7 @@
   <div class="overlay">Explore the World, Enjoy the World</div>
 </div>
 
-  
+     
   <form  class="whole-form" action="addbus.php" method="POST" enctype="multipart/form-data" >
   
   
@@ -40,10 +40,10 @@
   <label for="from">From:</label><br>
 
   <select name="start-from" id="" >
-       <option value="dar es salaam">Dar es salaam</option> 
+       <option value="start">Choose starting point </option> 
+	   <option value="dar es salaam">Dar es salaam</option> 
        <option value="mbeya">Mbeya</option> 
-       <option value="iringa">Iringa</option> 
-       <option value="mbeya">Mbeya</option> 
+       <option value="iringa">Iringa</option>       
        <option value="songwe">Songwe</option> 
        <option value="katavi">Katavi</option> 
        <option value="kagera">Kagera</option> 
@@ -53,7 +53,7 @@
        <option value="shinyanga">Shinyanga</option> 
        <option value="mara">Mara</option> 
        <option value="manyara">Manyara</option> 
-       <option value="arusha">arusha</option> 
+       <option value="arusha">Arusha</option> 
        <option value="kilimanjaro">Kilimanjaro</option> 
        <option value="tanga">Tanga</option> 
        <option value="morogoro">Morogoro</option> 
@@ -70,10 +70,10 @@
   <label for="to">To:</label><br>
   
   <select name="destinates" id="" >
-       <option value="dodoma">Dodoma</option> 
+       <option value="choose destn">Choose destination</option>
+	   <option value="dodoma">Dodoma</option> 
        <option value="mbeya">Mbeya</option> 
        <option value="iringa">Iringa</option> 
-       <option value="mbeya">Mbeya</option> 
        <option value="songwe">Songwe</option> 
        <option value="katavi">Katavi</option> 
        <option value="kagera">Kagera</option> 
@@ -94,7 +94,16 @@
        <option value="mtwara">Mtwara</option> 
        <option value="Dar es salaam">Dar es salaam</option>
        <option value="Rukwa">Rukwa</option> 
-</select>
+</select><br>
+    <label for="fare">Fare:</label><br>
+	<select name="fare">
+	   <option value="choose fare">Choose fare</option>
+	   <option value="20,000TSHS">20,000TSHS</option> 
+       <option value="30,000TSHS">30,000TSHS</option> 
+       <option value="40,000TSHS">40,000TSHS</option> 
+       <option value="50,000TSHS">50,000TSHS</option> 
+       <option value="60,000TSHS">60,000TSHS</option> 
+	</select>   
 <br>
 <br>
   </div>
@@ -105,15 +114,16 @@
   <input type="text" id="date" placeholder="Bus number (T434CWX)" name="number" required><br>
   <label for="from">Class:</label><br>
   <select name="class" id="">
-      <option value="Luxury">Luxury </option>
+      <option value="Luxury">Choose class </option>
+	  <option value="Luxury">Luxury </option>
       <option value="Luxury">Semi-Luxury</option>
       <option value="Luxury">Ordinary </option>
 </select>    
       <br>
   
   <label for="to">Company:</label> <br>
-  <input type="text" id="to" placeholder="Bus company" name="company" required><br>
-  <label for="to">Departure time:</label><br>
+  <input type="text" id="company" placeholder="Bus company" name="company" required><br>
+  <label for="departure">Departure time:</label><br>
   <input type="time" id="to" placeholder="HH/MM/SS" name="departure-time" required><br><br>
   </div>
   
