@@ -43,7 +43,6 @@
        <option value="dar es salaam">Dar es salaam</option> 
        <option value="mbeya">Mbeya</option> 
        <option value="iringa">Iringa</option> 
-       <option value="mbeya">Mbeya</option> 
        <option value="songwe">Songwe</option> 
        <option value="katavi">Katavi</option> 
        <option value="kagera">Kagera</option> 
@@ -71,7 +70,6 @@
   
   <select name="destinates" id="" >
        <option value="dodoma">Dodoma</option> 
-       <option value="mbeya">Mbeya</option> 
        <option value="iringa">Iringa</option> 
        <option value="mbeya">Mbeya</option> 
        <option value="songwe">Songwe</option> 
