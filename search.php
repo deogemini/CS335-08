@@ -79,9 +79,9 @@ th {
 				<th>Plate Number</th>
 				<th>Bus class</th>
 				<th>Bus Name</th>
-				<th>Departuture time</th>
-				<th>Traveling from</th>
-				<th>Traveling to</th>
+				<th>Departure time</th>
+				<th>Travelling from</th>
+				<th>Travelling to</th>
 				<th>Journey date</th>
 				<th>Book</th>
 			</tr>
