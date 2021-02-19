@@ -1,10 +1,3 @@
-
-<p align="center">
-<a href="#"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="#"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="#"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
 ### ONLINE BUS TICKETING(OBT)
 -----------------
 
