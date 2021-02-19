@@ -28,6 +28,7 @@
 	
 <div class="container">
   <div class="overlay">Explore the World, Enjoy the World</div>
+</div>
 
   
   <form  class="whole-form" action="addbus.php" method="POST" enctype="multipart/form-data" >
@@ -124,9 +125,8 @@
 
   
   <button class="submit-button" type="submit" name="submit">Save details</button> 
-
+  
 </form>
-</div>
 
 </body>
 </html> 
