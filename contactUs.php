@@ -25,7 +25,7 @@
 <div class="container">
   <div class="overlay">Explore the World, Enjoy the World</div>
 </div>
-<!-- stand manager contacts -->
+<!-- stand manager contacts dodoma-->
 <div id="main"></div>
 <div class="container1" >  
   <div class="row">
@@ -37,6 +37,7 @@
         <p>phone no: +255713532744</p>
         <p>p.o. box: P.O. BOX. 10000 Dodoma-TZ</p>
     </div>
+    <!-- stand manager dar es salaam -->
     <div class="column" style="background-color:#bbb;">
         <h2>DAR-ES-SALAAM</h2>
         <p>position: Stand Manager</p>
