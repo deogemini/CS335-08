@@ -129,6 +129,16 @@ body {
   margin-bottom:2%;
   
 }
+.form-inline select {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius:6px;
+  margin-left:10%;
+  margin-bottom:2%;
+  
+}
+
 /*root css details side ends..........*/
 
 
