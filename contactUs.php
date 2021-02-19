@@ -25,7 +25,7 @@
 <div class="container">
   <div class="overlay">Explore the World, Enjoy the World</div>
 </div>
-
+<!-- stand manager contacts -->
 <div id="main"></div>
 <div class="container1" >  
   <div class="row">
