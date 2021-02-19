@@ -135,23 +135,55 @@
              <input type="button" value="Name" style="width:100px;"><input type="text" name="Name" id="text2"><br><br>
              <select name="From" id ="region" style="width:100%; height: 30px; font-size: 24px; border-radius: 5px; margin-top:20px; font-weight:strong;">
             <option value ="region">From:</option>
-            <option value ="dar es salaam">Dar es Salaam</option>
-            <option value ="mbeya">Mbeya</option>
-            <option value ="morogoro">Morogoro</option>
-            <option value ="iringa">Iringa</option>
-            <option value ="tanga">Tanga</option>
-            <option value ="kilimanjaro">Kilimanjaro</option>
-            <option value ="arusha">Arusha</option>
+            <option value="dar es salaam">Dar es salaam</option> 
+       <option value="mbeya">Mbeya</option> 
+       <option value="iringa">Iringa</option> 
+       <option value="songwe">Songwe</option> 
+       <option value="katavi">Katavi</option> 
+       <option value="kagera">Kagera</option> 
+       <option value="geita">Geita</option> 
+       <option value="kigoma">Kigoma</option> 
+       <option value="mwanza">Mwanza</option> 
+       <option value="shinyanga">Shinyanga</option> 
+       <option value="mara">Mara</option> 
+       <option value="manyara">Manyara</option> 
+       <option value="arusha">Arusha</option> 
+       <option value="kilimanjaro">Kilimanjaro</option> 
+       <option value="tanga">Tanga</option> 
+       <option value="morogoro">Morogoro</option> 
+       <option value="tabora">Tabora</option> 
+       <option value="singida">Singida</option> 
+       <option value="ruvuma">Ruvuma</option> 
+       <option value="lindi">Lindi</option> 
+       <option value="mtwara">Mtwara</option> 
+       <option value="Dodoma">Dodoma</option>
+       <option value="Rukwa">Rukwa</option> 
         </select><br><br>
         <select name="To" id ="region" style="width:100%; height: 30px; font-size: 24px; border-radius: 5px; margin-top:20px; font-weight:strong;">
             <option value ="region">To:</option>
-            <option value ="dar es salaam">Dar es Salaam</option>
-            <option value ="mbeya">Mbeya</option>
-            <option value ="morogoro">Morogoro</option>
-            <option value ="iringa">Iringa</option>
-            <option value ="tanga">Tanga</option>
-            <option value ="kilimanjaro">Kilimanjaro</option>
-            <option value ="arusha">Arusha</option>
+            <option value="dar es salaam">Dar es salaam</option> 
+       <option value="mbeya">Mbeya</option> 
+       <option value="iringa">Iringa</option> 
+       <option value="songwe">Songwe</option> 
+       <option value="katavi">Katavi</option> 
+       <option value="kagera">Kagera</option> 
+       <option value="geita">Geita</option> 
+       <option value="kigoma">Kigoma</option> 
+       <option value="mwanza">Mwanza</option> 
+       <option value="shinyanga">Shinyanga</option> 
+       <option value="mara">Mara</option> 
+       <option value="manyara">Manyara</option> 
+       <option value="arusha">Arusha</option> 
+       <option value="kilimanjaro">Kilimanjaro</option> 
+       <option value="tanga">Tanga</option> 
+       <option value="morogoro">Morogoro</option> 
+       <option value="tabora">Tabora</option> 
+       <option value="singida">Singida</option> 
+       <option value="ruvuma">Ruvuma</option> 
+       <option value="lindi">Lindi</option> 
+       <option value="mtwara">Mtwara</option> 
+       <option value="Dodoma">Dodoma</option>
+       <option value="Rukwa">Rukwa</option> 
         </select><br><br>
              <input type="button" value="Date" style="width:100px;"><input type="date" name="Date" id="text5"><br><br>
              <input type="button" value="Contact" style="width:100px;"><input type="number" name="Contact" id="text6"><br><br>
