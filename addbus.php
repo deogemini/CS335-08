@@ -103,7 +103,7 @@
   <div class="bus-details-form">
   <h1 class="bus-heading">Bus details</h1><br>
   <label for="date">Bus No:</label><br>
-  <input type="text" id="date" placeholder="Bus number (T4342CWX)" name="number" required><br>
+  <input type="text" id="date" placeholder="Bus number (T434CWX)" name="number" required><br>
   <label for="from">Class:</label><br>
   <select name="class" id="">
       <option value="Luxury">Luxury </option>
