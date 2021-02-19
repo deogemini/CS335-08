@@ -48,11 +48,11 @@ In order to install this system on your computer you need to have the following 
 ### INSTALLATION PROCEDURES:
 For unexperienced users, please follow each step clearly and do not skip any step to ensure you do not encounter any problems.
 
-1. Clone repository using command `git clone https://github.com/eltiwany/CS335-CV-AUTOMATION-SYSTEM.git`
-1. Change path to repository folder by typing `cd CS335-CV-AUTOMATION-SYSTEM`
+1. Clone repository using command `git clone https://github.com/eltiwany/CS335-ONLINE US TICKETING.git`
+1. Change path to repository folder by typing `cd CS335-ONLINE BUS TICKETING`
 1. Install node modules by typing `npm install`
 1. Install laravel vendor by typing `composer install`
-1. Create database on your DBMS with name `cv-automation` or any name if you are advanced user
+1. Create database on your DBMS with name `online bus ticketing` or any name if you are advanced user
 1. Edit .env file, change the following fiels based on your DBMS settings
    1. `DB_DATABASE=bus ticketing`
    1. `DB_USERNAME=root`
