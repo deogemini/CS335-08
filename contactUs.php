@@ -47,7 +47,7 @@
         <p>p.o. box: P.O. BOX. 10000 DarEsSalaam-TZ </p>
     </div>
   </div>
-
+<!-- stand manager mwanza -->
   <div class="row1">
     <div class="column1" style="background-color:#ccc;">
         <h2>MWANZA</h2>
