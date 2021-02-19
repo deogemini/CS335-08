@@ -136,6 +136,7 @@ body {
         cursor: pointer;
 		border-radius:10px;
     }
+    /*Form inline button*/
 
     .form-inline button:hover {
         background-color: #707374;
