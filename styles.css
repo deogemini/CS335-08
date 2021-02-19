@@ -148,7 +148,7 @@ body {
 	background-color:#2a5a68;
 	margin-left:60%;
 	width:25%;
-	margin-top:-23%;
+	margin-top:-27.5%;
 	
 }
 .bus-heading{
@@ -168,7 +168,7 @@ body {
 }
 
 .bus-details-form select {
-  
+   
 	padding: 10px;
 	background-color: #fff;
 	border: 1px solid #ddd;
@@ -185,6 +185,7 @@ body {
   .bus-details-form select{
 	margin-left:10%;
 	color:black;
+	
 	 }
   /*bus side ends here................*/
   
@@ -198,11 +199,12 @@ body {
 	color: white;
 	cursor: pointer;
 	border-radius:10px;
+	margin-top:-1%;
 	
 }
 .upload-title {
 	margin-left:26%;
-	margin-top:-2.5%;
+	margin-top:1%;
 	
 }
 
@@ -210,6 +212,7 @@ body {
 .submit-button {
 	background-color:#2a5a68;
 	margin-left:75%;
+	
 }
 
  button {
