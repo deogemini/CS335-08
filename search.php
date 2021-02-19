@@ -75,15 +75,15 @@ th {
 <table class="table table-bordered">
          <thead>
 			<tr>
-				<th>Bus image</th>
-				<th>Plate Number</th>
-				<th>Bus class</th>
-				<th>Bus Name</th>
-				<th>Departuture time</th>
-				<th>Traveling from</th>
-				<th>Traveling to</th>
-				<th>Journey date</th>
-				<th>Book</th>
+				<th>bus image</th>
+				<th>plate Number</th>
+				<th>bus class</th>
+				<th>bus Name</th>
+				<th>departuture time</th>
+				<th>traveling from</th>
+				<th>traveling to</th>
+				<th>journey date</th>
+				<th>book</th>
 			</tr>
 	    </thead>
           <tbody>
