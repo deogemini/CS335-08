@@ -1,5 +1,3 @@
-
-
 ### ONLINE BUS TICKETING(OBT)
 -----------------
 

@@ -11,11 +11,7 @@
 			$to = $n['travelTo'];
 			$date = $n['travelDate'];
 			$phone = $n['contacts'];
-			
-		
-	
-	
-	//<input type="hidden" name="id" value="<?php echo $id; 
+
 ?>
 
 <!DOCTYPE html>
@@ -41,7 +37,7 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 th {
-	background-color:green;
+	background-color:#2a5a68;
 }
 </style>
 </head>
@@ -55,9 +51,9 @@ th {
 			<th>S/N</th>
 			<th>Seat number</th>
 			<th>Customer name</th>
-			<th>Traveling from</th>
-			<th>Traveling to</th>
-			<th>Traveling date</th>
+			<th>Travelling from</th>
+			<th>Travelling to</th>
+			<th>Travelling date</th>
 			<th>Contact No.</th>			
 		</tr>
 	</thead>

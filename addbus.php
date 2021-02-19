@@ -7,8 +7,7 @@
   
 <title>Add bus details</title>
 <link rel="stylesheet" href="styles.css">
-<!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
 </head>
 
 <body>
@@ -54,7 +53,7 @@
        <option value="shinyanga">Shinyanga</option> 
        <option value="mara">Mara</option> 
        <option value="manyara">Manyara</option> 
-       <option value="arusha">Arusha</option> 
+       <option value="arusha">arusha</option> 
        <option value="kilimanjaro">Kilimanjaro</option> 
        <option value="tanga">Tanga</option> 
        <option value="morogoro">Morogoro</option> 
@@ -103,7 +102,7 @@
   <div class="bus-details-form">
   <h1 class="bus-heading">Bus details</h1><br>
   <label for="date">Bus No:</label><br>
-  <input type="text" id="date" placeholder="Bus number (T4342CWX)" name="number" required><br>
+  <input type="text" id="date" placeholder="Bus number (T434CWX)" name="number" required><br>
   <label for="from">Class:</label><br>
   <select name="class" id="">
       <option value="Luxury">Luxury </option>
