@@ -10,7 +10,7 @@
 <body>
 <div class="title">
 <div class="logo"><img src="images/obtms-logo.png"></div>
-<div class="heading"><h1 >Online Bus Ticketing System</h1></div>
+<div class="heading"><h1 >Online Bus Ticketing System.</h1></div>
  </div>
     <div class="btn-group">
 	<br>
