@@ -11,11 +11,7 @@
 			$to = $n['travelTo'];
 			$date = $n['travelDate'];
 			$phone = $n['contacts'];
-			
-		
-	
-	
-	//<input type="hidden" name="id" value="<?php echo $id; 
+
 ?>
 
 <!DOCTYPE html>
