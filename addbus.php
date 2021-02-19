@@ -105,8 +105,14 @@
   <label for="date">Bus No:</label><br>
   <input type="text" id="date" placeholder="Bus number (T4342CWX)" name="number" required><br>
   <label for="from">Class:</label><br>
-  <input type="text" id="from" placeholder="Bus class" name="category" required><br>
-  <label for="to">Company:</label><br>
+  <select name="class" id="">
+      <option value="Luxury">Luxury </option>
+      <option value="Luxury">Semi-Luxury</option>
+      <option value="Luxury">Ordinary </option>
+</select>    
+      <br>
+  
+  <label for="to">Company:</label> <br>
   <input type="text" id="to" placeholder="Bus company" name="company" required><br>
   <label for="to">Departure time:</label><br>
   <input type="time" id="to" placeholder="HH/MM/SS" name="departure-time" required><br><br>
