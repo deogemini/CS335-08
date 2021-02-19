@@ -7,8 +7,7 @@
   
 <title>Add bus details</title>
 <link rel="stylesheet" href="styles.css">
-<!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
 </head>
 
 <body>
