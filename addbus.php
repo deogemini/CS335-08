@@ -114,10 +114,10 @@
   <input type="text" id="date" placeholder="Bus number (T434CWX)" name="number" required><br>
   <label for="from">Class:</label><br>
   <select name="class" id="">
-      <option value="Luxury">Choose class </option>
+      <option value="choose">Choose class </option>
 	  <option value="Luxury">Luxury </option>
-      <option value="Luxury">Semi-Luxury</option>
-      <option value="Luxury">Ordinary </option>
+      <option value="Semi-luxury">Semi-Luxury</option>
+      <option value="Ordinary">Ordinary </option>
 </select>    
       <br>
   

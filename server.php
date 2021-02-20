@@ -48,6 +48,7 @@ if (isset($_POST['update'])) {
 		$fare = $_POST['fare'];
 
 	mysqli_query($db, "UPDATE buses1 SET busID='$busid', category='$class', company='$company', departureTime='$time', startFrom='$start', termiation='$terminate', date='$date', busPhoto='$photo',fare='$fare' WHERE id=$id");
+	
 	$_SESSION['message'] = "Informations updated!"; 
 	header('location: editbus.php');
 }
