@@ -23,7 +23,7 @@ function search(){
 				 
 	  $results = mysqli_query($conn, "SELECT * FROM buses1 WHERE startFrom='$start' AND termination='$destinates' AND date='$date'");
 	  $users = mysqli_fetch_all($results, MYSQLI_ASSOC);
-			//header('location: editbus.php');
+			
 	}
 	
 	?>
@@ -39,12 +39,11 @@ function search(){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Image Preview and Upload</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+ 
 	
 	<style>
 table {
-    width:80%;
+    width:90%;
 }
 table, th, td {
     border: 1px solid black;
@@ -83,6 +82,7 @@ th {
 				<th>Travelling from</th>
 				<th>Travelling to</th>
 				<th>Journey date</th>
+				<th>Fare</th>
 				<th>Book</th>
 			</tr>
 	    </thead>
@@ -98,6 +98,7 @@ th {
 				<td><?php echo $user['startFrom']; ?></td>
 				<td><?php echo $user['termination']; ?></td>
 				<td><?php echo $user['date']; ?></td>
+				<td><?php echo $user['fare']; ?></td>
                 
 				
 				<td>
