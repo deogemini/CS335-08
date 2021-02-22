@@ -4,7 +4,8 @@
 		$id = $_GET['edit'];
 		$update = true;		
 		$record = mysqli_query($db, "SELECT * FROM buses1 WHERE id=$id");
-
+		
+        if (count(array($record) )) {
 			$n = mysqli_fetch_array($record);
 			$busid = $n['busID'];
 			$class = $n['category'];
@@ -16,6 +17,7 @@
 			$date = $n['date'];
 			$fare = $n['fare'];
 			}
+	}	
 	?>
 
 <!DOCTYPE html>
