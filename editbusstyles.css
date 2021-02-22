@@ -3,7 +3,7 @@ body {
 	
 }
 table{
-    width: 50%;
+    width: 90%;
     margin: 30px auto;
     border-collapse: collapse;
     text-align: left;
@@ -38,7 +38,7 @@ form {
     margin: 3px;
 }
 .input-group input {
-    height: 30px;
+    height: 20px;
     width: 93%;
     padding: 5px 10px;
     font-size: 16px;
