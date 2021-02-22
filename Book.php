@@ -131,8 +131,8 @@
         <div class="information">
 		<h2 align="center">Fill out the information</h2>
          <form action="Book.php" method="POST" name="info">
-             <input type="button" value="Seat" style="width:100px;"><input type="text" name="Seat" id="text1"><br><br>
-             <input type="button" value="Name" style="width:100px;"><input type="text" name="Name" id="text2"><br><br>
+             <input type="button" value="Seat" style="width:100px;"><input type="text" name="Seat" id="text1" required><br><br>
+             <input type="button" value="Name" style="width:100px;"><input type="text" name="Name" id="text2" required><br><br>
              <select name="From" id ="region" style="width:100%; height: 30px; font-size: 24px; border-radius: 5px; margin-top:20px; font-weight:strong;">
             <option value ="region">From:</option>
             <option value="dar es salaam">Dar es salaam</option> 
@@ -185,8 +185,8 @@
        <option value="Dodoma">Dodoma</option>
        <option value="Rukwa">Rukwa</option> 
         </select><br><br>
-             <input type="button" value="Date" style="width:100px;"><input type="date" name="Date" id="text5"><br><br>
-             <input type="button" value="Contact" style="width:100px;"><input type="number" name="Contact" id="text6"><br><br>
+             <input type="button" value="Date" style="width:100px;"><input type="date" name="Date" id="text5" required><br><br>
+             <input type="button" value="Contact" style="width:100px;"><input type="number" name="Contact" id="text6" required><br><br>
              <button style="Submit" value="Book"  name="elly" >Book</button>
          </form>   
         </div>
